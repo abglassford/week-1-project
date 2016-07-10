@@ -1,4 +1,52 @@
+header {
+  background-color: #333333;
+  color: #BFB9B5;
+  margin: 2px 2px 2px 2px;
+}
+.company-name{
+  display: inline-block;
+  background-color: #333333;
+  padding-left: 3rem;
+
+}
+.navbar{
+  display: inline-block;
+  background-color: #232323;
+  float: right;
+  margin: 2rem 3rem auto 3rem;
+
+
+}
+.navbar li{
+  display: inline-block;
+  margin-right: 2rem;
+  padding: 2px 2px 2px 2px;
+
+}
 p{
-  color: blue;
-  font-style: italic; 
-};
+  color:  #CCCCCC;
+}
+.center-article{
+  float: left;
+  width: 26%;
+  margin:2rem 0rem 0rem 5rem;
+  border-right: 2px solid #CCCCCC;
+  padding-right: 15px;
+}
+img{
+  float: right;
+  width: 60%;
+  margin: 2rem 5rem 0rem 0rem;
+}
+.clearfix{
+  clear: both;
+}
+a{
+ color: #BFB9B5;
+}
+footer{
+  font: small;
+}
+aside{
+  display: inline-block;
+}
