@@ -7,17 +7,34 @@ header {
   display: inline-block;
   background-color: #333333;
   padding-left: 3rem;
-
+  font-family: sans-serif;
+}
+.company-name h1{
+  color: #FFB240;
+  font-size: 3rem;
+  margin-bottom: 1px;
+  border-top: 1px solid #FFB240;
+}
+.company-name h2{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding-top: 1px;
+  padding-left: 2rem;
+  border-bottom: 4px solid #FFB240;
+}
+.company-name h6{
+  text-align: right;
+  margin-top: 1px;
+  padding-top: 1px;
 }
 .navbar{
   display: inline-block;
   background-color: #232323;
   float: right;
-  margin: 2rem 3rem auto 3rem;
-
-
+  margin: 3rem 3rem auto 3rem;
 }
 .navbar li{
+  color: #FFB240;
   display: inline-block;
   margin-right: 2rem;
   padding: 2px 2px 2px 2px;
@@ -34,13 +51,14 @@ p{
   float: left;
   width: 26%;
   margin:2rem 0rem 0rem 5rem;
-  border-right: 2px solid #CCCCCC;
   padding-right: 12px;
 }
 .building{
   float: right;
   width: 60%;
+  padding-left: 1.3rem;
   margin: 2rem 5rem 0rem 0rem;
+  border-left: 2px solid #FFB240;
 }
 .clearfix{
   clear: both;
@@ -49,8 +67,8 @@ a{
  color: #BFB9B5;
 }
 footer{
-  float: right;
-  font: small;
+  text-align: center;
+  font-size: small;
   margin-right: 5rem;
 
 }
