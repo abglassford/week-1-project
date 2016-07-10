@@ -66,12 +66,6 @@ p{
 a{
  color: #BFB9B5;
 }
-footer{
-  text-align: center;
-  font-size: small;
-  margin-right: 5rem;
-
-}
 .lower-section{
   margin: auto 5rem auto 10rem;
 }
@@ -94,4 +88,12 @@ footer{
   margin-right: 2rem;
   margin-bottom: 1px;
 
+}
+footer{
+  font-size: small;
+  text-align: center;
+  background-color: #333333;
+  margin: 5rem 2px 2px 2px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
