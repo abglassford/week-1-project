@@ -65,6 +65,7 @@ p{
 }
 a{
  color: #BFB9B5;
+ text-decoration: none;
 }
 .lower-section{
   margin: auto 5rem auto 10rem;
