@@ -1,8 +1,13 @@
+/*Upper Section*/
+
 header {
   background-color: #333333;
   color: #BFB9B5;
-  margin: 2px 2px 2px 2px;
+  margin: 2px 2px;
 }
+
+/*Company name and subtext*/
+
 .company{
   display: inline-block;
   background-color: #333333;
@@ -27,34 +32,54 @@ header {
   margin-top: 1px;
   padding-top: 1px;
 }
+
+/*Navigation Bar*/
+
 .navbar{
-  display: inline-block;
   background-color: #232323;
   float: right;
-  margin: 3rem 3rem auto 3rem;
+  margin: 3rem 3rem;
 }
 .navbar li{
   color: #FFB240;
   display: inline-block;
   margin-right: 2rem;
-  padding: 2px 2px 2px 2px;
+  padding: 2px 2px;
 }
+
+/*
+Middle Section
+*/
+
 p{
   color:  #CCCCCC;
 }
+
+/*Main Article*/
+
+.center-section{
+  display: inline-block;
+}
 .center-article{
-  float: left;
+  text-align: left;
+  display: inline-block;
   width: 26%;
-  margin:2rem 0rem 0rem 5rem;
-  padding-right: 12px;
+  margin: 0rem 0rem 0rem 2rem;
+  padding-right: 1.3rem;
 }
 .building{
-  float: right;
+  display: inline-block;
+  text-align: right;
   width: 60%;
   padding-left: 1.3rem;
-  margin: 2rem 5rem 0rem 0rem;
+  margin: 2rem 2rem;
   border-left: 2px solid #FFB240;
 }
+
+/*
+Bottom Section
+*/
+
 .lower-section{
   margin: auto 5rem auto 10rem;
 }
@@ -62,7 +87,7 @@ p{
   display: inline-block;
   width: 30%
 }
-.head{
+.headshots{
   float: left;
   width: 38%;
   padding: none;
