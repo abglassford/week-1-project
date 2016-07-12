@@ -42,10 +42,6 @@ header {
 p{
   color:  #CCCCCC;
 }
-a{
- color: #BFB9B5;
- text-decoration: none;
-}
 .center-article{
   float: left;
   width: 26%;
@@ -62,15 +58,7 @@ a{
 .lower-section{
   margin: auto 5rem auto 10rem;
 }
-.aside1{
-  display: inline-block;
-  width: 30%
-}
-.aside2{
-  display: inline-block;
-  width: 30%
-}
-.aside3{
+.bottom-aside{
   display: inline-block;
   width: 30%
 }
@@ -82,8 +70,11 @@ a{
   margin-bottom: 1px;
 }
 .read{
-  color: #FFB240;
   text-align: right;
+}
+.read a{
+  color: #FFB240;
+  text-decoration: none;
 }
 footer{
   font-size: small;
