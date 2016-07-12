@@ -80,11 +80,11 @@ Bottom Section
 */
 
 .lower-section{
-  margin: auto 5rem auto 10rem;
+  margin: auto 5rem auto 5rem;
 }
 .bottom-aside{
   display: inline-block;
-  width: 30%
+  width: 33%
 }
 .headshots{
   float: left;
